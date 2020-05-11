@@ -1,5 +1,7 @@
 # Tsw
 
+[![Build Status](https://api.travis-ci.org/merwan/tsw.svg?branch=master)](https://travis-ci.org/merwan/tsw)
+
 To start your Phoenix server:
 
   * Setup the project with `mix setup`
