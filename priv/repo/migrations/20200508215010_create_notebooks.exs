@@ -7,6 +7,5 @@ defmodule Tsw.Repo.Migrations.CreateNotebooks do
 
       timestamps()
     end
-
   end
 end

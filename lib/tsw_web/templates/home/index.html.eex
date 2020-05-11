@@ -1,0 +1,6 @@
+<h2>Notebooks</h2>
+<ul>
+  <%= for notebook <- @notebooks do %>
+    <li><%= notebook.name %></li>
+  <% end %>
+</ul>

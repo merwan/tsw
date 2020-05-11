@@ -1,4 +1,4 @@
-defmodule Tsw.Notebook do
+defmodule Tsw.Information.Notebook do
   use Ecto.Schema
   import Ecto.Changeset
 
