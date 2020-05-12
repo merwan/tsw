@@ -1,4 +1,8 @@
 defmodule Tsw.Information.Notebook do
+  @moduledoc """
+  Notebook model
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

@@ -9,7 +9,7 @@ env:
   - MIX_ENV=test
 script:
   - mix format --check-formatted
-  - mix credo --strict
+  - mix credo
   - mix dialyzer --plt
   - mix dialyzer
   - mix test --cover

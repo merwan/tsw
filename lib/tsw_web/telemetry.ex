@@ -1,4 +1,10 @@
 defmodule TswWeb.Telemetry do
+  @moduledoc """
+  Telemetry supervision tree.
+
+  This supervisor defines the application's metrics and start the reporters.
+  """
+
   use Supervisor
   import Telemetry.Metrics
 

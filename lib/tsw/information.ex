@@ -3,8 +3,8 @@ defmodule Tsw.Information do
   The Information context.
   """
 
-  alias Tsw.Repo
   alias Tsw.Information.Notebook
+  alias Tsw.Repo
 
   def list_notebooks do
     Repo.all(Notebook)
