@@ -8,7 +8,13 @@ services:
 env:
   - MIX_ENV=test
 script:
-  - mix test
+  - mix format --check-formatted
+  - mix credo --strict
+  - mix dialyzer --plt
+  - mix dialyzer
+  - mix test --cover
 cache:
   directories:
   - deps
+  - _build
+  - priv/plts
