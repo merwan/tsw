@@ -10,11 +10,10 @@ env:
 script:
   - mix format --check-formatted
   - mix credo
-  - mix dialyzer --plt
   - mix dialyzer
   - mix test --cover
 cache:
   directories:
-  - deps
-  - _build
-  - priv/plts
+    - deps
+    - _build
+    - priv/plts
